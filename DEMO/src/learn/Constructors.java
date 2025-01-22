@@ -32,6 +32,7 @@ public class Constructors {
 
 	    public Constructors(int theNumber) {
 	        this.number = theNumber;
+	        System.out.println("argument constructor");
 	        System.out.println(number);
 	    }
 	    public static void main(String[] args) {
