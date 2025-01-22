@@ -13,6 +13,7 @@ class Employee1 implements Comparable<Employee1> {
 	}
 
 	public int compareTo(Employee1 emp1) {
+		System.out.println("inside the compare method");
 		return Integer.compare(this.id, emp1.id);
 	}
 }
