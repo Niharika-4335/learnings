@@ -1,11 +1,11 @@
 package learn;
 
 public class Constructors {
-	   /* private int a;
+	    private int a;
 	    private int b;
 
 	    // Constructor 1: Takes two parameters and initializes both 'a' and 'b'
-	    public Constructors(int a, int b) {
+	   /* public Constructors(int a, int b) {
 	        this.a = a;
 	        this.b = b;
 	        System.out.println("Constructor 1: a = " + a + ", b = " + b);

@@ -18,7 +18,7 @@ public class sortingobjects {
 		//object instantiation
 		sob[0]=new sortingobjects(1,"hi");
 		sob[1]=new sortingobjects(2,"hello");
-		
+		//provides mu
 		Comparator<sortingobjects> com=new Comparator<sortingobjects>() {
 		public int compare(sortingobjects e1,sortingobjects e2) {
 	        return e1.name.compareTo(e2.name);
