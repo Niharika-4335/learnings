@@ -1,0 +1,19 @@
+package learn;
+import java.util.*;
+public class examt {
+     public static void main(String xyz[]) {
+    	 List<Integer> a=new ArrayList<>();
+    	 a.add(3);
+    	 a.add(5);
+    	 a.set(1,2);
+    	 System.out.println(a.get(0));
+    	 a.remove(0);
+    	 //we can iterate through for each,iterator
+    	 Iterator it=a.iterator();
+    	 while(it.hasNext()) {
+    		 System.out.println(it.next());
+    		 
+    	 }
+    	 
+     }
+}
