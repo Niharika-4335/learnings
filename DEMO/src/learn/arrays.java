@@ -3,6 +3,7 @@ import java.util.*;
 public class arrays {
 	public static void main(String xyz[]) {
 		int[] a= {1,3,4,5,8,2};
+//		deleting an element
 		/*int b=3;
 		int index=-1;
 		for(int i=0;i<a.length;i++) {
@@ -22,17 +23,26 @@ public class arrays {
 		for(int i=0;i<c.length;i++) {
 			System.out.print(c[i]+" ");
 		}*/
-		Arrays.sort(a);
-		for(int i=0;i<a.length;i++) {
-			System.out.print(a[i]+" ");
+//		Arrays.sort(a);
+//		for(int i=0;i<a.length;i++) {
+//			System.out.print(a[i]+" ");
+//		}
+//		int index = Arrays.binarySearch(a, 2);
+//
+//		System.out.println(index);
+//		inserting an element into particular index.
+		int index=3;
+		int newArray[]=new int[a.length+1];
+		for(int i=0;i<index;i++) {
+			newArray[i]=a[i];
 		}
-		int index = Arrays.binarySearch(a, 2);
-
-		System.out.println(index);
-		
-		
-	
-		
+		newArray[index]=7;
+		for(int i=index+1;i<newArray.length;i++) {
+			newArray[i]=a[i-1];
+		}
+		for(int i=0;i<newArray.length;i++) {
+		System.out.print(newArray[i]+" ");
+	}
 		
 	}
 

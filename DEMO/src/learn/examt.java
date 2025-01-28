@@ -8,7 +8,7 @@ public class examt {
     	 a.set(1,2);
     	 System.out.println(a.get(0));
     	 a.remove(0);
-    	 //we can iterate through for each,iterator
+    	 //Iterable-interface which conatains iterable method which returns iterator object 
     	 Iterator it=a.iterator();
     	 while(it.hasNext()) {
     		 System.out.println(it.next());
