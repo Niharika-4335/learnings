@@ -50,12 +50,13 @@ public class OwnArrayList {
         ownArrayList.add(1);
         ownArrayList.add(2);
         ownArrayList.add(3);
-        for(int i=4;i<7;i++) {
+        for(int i=4;i<10;i++) {
             ownArrayList.add(i);
         }
+        
         ownArrayList.remove(3);
      System.out.println(ownArrayList.GetValue(6));
-
+     System.out.print(ownArrayList.Size());
         System.out.print(ownArrayList);
         }
 
