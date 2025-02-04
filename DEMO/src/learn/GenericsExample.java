@@ -13,7 +13,7 @@ class One<T>{
 	
 }
 
-public class generics {
+public class GenericsExample {
 	public static <t> void  ExampleGeneric(t num){
 		System.out.println(num);
 		
