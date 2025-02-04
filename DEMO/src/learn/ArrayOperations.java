@@ -1,6 +1,6 @@
 package learn;
 import java.util.*;
-public class arrays {
+public class ArrayOperations {
 	public static void main(String xyz[]) {
 		int[] a= {1,3,4,5,8,2};
 //		deleting an element
