@@ -2,7 +2,7 @@ package learn;
 import java.util.*;
 public class Stringbuilder {
 	public static  void main(String xyz[]) {
-	StringBuilder s=new StringBuilder("honey");
+	StringBuilder s=new StringBuilder("niharika");
 	s.append("hi");
 	System.out.println(s);
 	s.insert(2,"n");
