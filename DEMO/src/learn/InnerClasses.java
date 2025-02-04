@@ -12,7 +12,7 @@ class B {
 	 }
 	
 }
- public class nested{
+ public class InnerClasses{
 	public static void main(String args[]) {
 		//B n=new B();
 		B.inner n1=new B.inner();
