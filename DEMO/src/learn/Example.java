@@ -29,7 +29,7 @@ class A1 {
 	}	
 	
 }
-public class task1 {
+public class Example {
 	public static void main(String xyz[]) {
 		A1[] a=new  A1[3];
 		a[0]=new A1(1,"from","cse");
