@@ -12,7 +12,7 @@ public class PolymorphismExample {
 		return a+b;
 	}		
 public static void main(String xyz[]) {
-		poly p=new poly();
+		PolymorphismExample p=new PolymorphismExample();
 		int x=p.add(3, 5);
 		int y=p.add(2, 3,5);
 		double z=p.add(3.5, 4.5);
