@@ -25,7 +25,7 @@ class  parent {
 		 System.out.println("dancing in child class");
 	}
  }
- public class keyword{
+ public class SuperKeyword{
  public static void main(String xyz[]) {
 	 child a=new child();
 	 a.printName();
