@@ -1,6 +1,6 @@
 package learn;
 
-public class poly {
+public class PolymorphismExample {
 	//method overrloading example of compile time polymorphism
 	public int add(int a,int b) {
 		return a+b;
