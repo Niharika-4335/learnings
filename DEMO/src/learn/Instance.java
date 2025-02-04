@@ -10,7 +10,7 @@ class A {
     }
 }
 
-public class instance {
+public class Instance {
     public static void main(String[] args) {
          A a=new A();
          A a1=new A();
