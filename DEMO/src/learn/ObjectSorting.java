@@ -2,7 +2,7 @@ package learn;
 
 import java.util.*;
 
-public class sortingobjects {
+public class ObjectSorting {
 	private int id;
 	private String name;
 	sortingobjects(int id,String name){
