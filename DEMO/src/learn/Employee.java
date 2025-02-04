@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Employees{
+public class Employee{
     private Integer id;
     private String name;
 
