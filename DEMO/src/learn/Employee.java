@@ -9,7 +9,7 @@ public class Employee{
     private Integer id;
     private String name;
 
-    public Employees(String name,int id) {
+    public Employee(String name,int id) {
         this.name = name;
         this.id = id;
     }
@@ -35,15 +35,15 @@ public class Employee{
 
 
         List<Employees> list=new ArrayList<>();
-        list.add(new Employees("niharika",1));
-        list.add(new Employees("xya",2));
-        list.add(new Employees("uygfy",3));
-        list.add(new Employees("hjgsdcy",4));
-        list.add(new Employees("uygsdcyusd",5));
-        list.add(new Employees("hsgvcgds",6));
-        Comparator<Employees> emp1=(emp2,emp3)->{return emp2.getName().compareTo(emp3.getName());};
+        list.add(new Employee("niharika",1));
+        list.add(new Employee("xya",2));
+        list.add(new Employee("uygfy",3));
+        list.add(new Employee("hjgsdcy",4));
+        list.add(new Employee("uygsdcyusd",5));
+        list.add(new Employee("hsgvcgds",6));
+        Comparator<Employee> emp1=(emp2,emp3)->{return emp2.getName().compareTo(emp3.getName());};
         Collections.sort(list,emp1);
-        for(Employees emp:list){
+        for(Employee emp:list){
             System.out.println(emp);
         }
     }
