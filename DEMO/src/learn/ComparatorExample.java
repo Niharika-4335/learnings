@@ -13,7 +13,7 @@ Integer id;
 }
 
 
-public class comparator {
+public class ComparatorExample {
 	public static void main(String xyz[]) {
 		Employee2[] emp = new Employee2[3];
 		emp[0] = new Employee2(2, "apple");
