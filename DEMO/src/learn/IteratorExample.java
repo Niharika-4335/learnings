@@ -1,6 +1,6 @@
 package learn;
 import java.util.*;
-public class examt {
+public class IteratorExample {
      public static void main(String xyz[]) {
     	 List<Integer> a=new ArrayList<>();
     	 a.add(3);
