@@ -18,7 +18,7 @@ class Employee1 implements Comparable<Employee1> {
 	}
 }
 
-public class comparable {
+public class ComparableExample {
 	public static void main(String xyz[]) {
 		Employee1[] emp = new Employee1[3];
 		emp[0] = new Employee1(2, "honey");
