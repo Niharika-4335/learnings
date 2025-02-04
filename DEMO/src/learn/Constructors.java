@@ -28,10 +28,10 @@ public class Constructors {
 
 
 		public static void main(String[] args) {
-//	        Constructors c=new Constructors(2,"honey","msg");
-//	        Constructors c1=new Constructors("honey1","msg1");
+//	        Constructors c=new Constructors(2,"niharika","msg");
+//	        Constructors c1=new Constructors("xyz","msg1");
 //	        c1.displayDetails();
-	        Constructors c2=new Constructors("honey");
+	        Constructors c2=new Constructors("niharika");
 	        c2.displayDetails();
 	        
 	        
