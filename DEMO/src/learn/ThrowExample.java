@@ -1,5 +1,5 @@
 package learn;
-public class custom{
+public class ThrowExample{
 	public static void agevalidation(int age) throws IllegalArgumentException{
 		if(age<18) {
 			throw new  IllegalArgumentException("age should be older than 18");
