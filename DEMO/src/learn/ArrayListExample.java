@@ -3,7 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-public class CustomArrayList {
+public class ArrayListExample
+    {
     class Student {
         String phno;
         String name;
@@ -22,12 +23,12 @@ public class CustomArrayList {
     }
 
         public static void main(String xyz[]) {
-//        CustomArrayList customArrayList=new CustomArrayList();
+//        ArrayListExample customArrayList=new ArrayListExample();
             String[] phno = {"9321", "12345", "3456", "123"};
             String[] name = {"niha", "soumya", "lavanya", "jyothi"};
             float[] marks = {98f, 95f, 95f, 92f};
             String[] address = {"guntur", "hyd", "bng", "ind"};
-            CustomArrayList customArrayList=new CustomArrayList();
+            ArrayListExample customArrayList=new ArrayListExample();
             customArrayList.Addfields(phno, name, marks, address);
         }
 
