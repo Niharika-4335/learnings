@@ -1,6 +1,6 @@
 package learn;
 import java.util.*;
-public class exceptions {
+public class ExceptionExample {
 	public static void main(String xyz[]) {
 		int a=5,b=6;
 		int c=a/b;
