@@ -5,7 +5,7 @@ public class OwnArrayList {
     int size=0;
     int default_size=10;
     int[] arr;
-    public OwnArrayList() {
+    public CustomArrayList() {
         //this.arr = arr;if we create like this we have to pass an array as a
         //argument but in arraylist we have to allocate memory in runtime.
         this.arr = new int[default_size];
@@ -46,7 +46,7 @@ public class OwnArrayList {
         return Arrays.toString(arr);
         }
     public static void main(String[] args) {
-        OwnArrayList ownArrayList=new OwnArrayList();
+        CustomArrayList ownArrayList=new CustomArrayList();
         ownArrayList.add(1);
         ownArrayList.add(2);
         ownArrayList.add(3);
