@@ -4,7 +4,7 @@ class c{
 	int name;
 	
 }
-public class objects {
+public class ObjectReference {
 	public static void main(String xyz[]) {
 	c c1=new c();
 	c1.id=2;
