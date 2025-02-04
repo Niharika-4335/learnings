@@ -182,7 +182,7 @@ class car extends Vehicle {
 //		
 //	}
 //}
-public class task2 {
+public class OopsExample {
 	public static void main(String xyz[]) {
 		Car c = new Car("hi", "fortuner", 2010, "black");
 		c.displayDetails();
