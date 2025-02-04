@@ -1,6 +1,6 @@
 package learn;
 
-public class vars {
+public class VariableCasting {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
