@@ -1,6 +1,6 @@
 package learn;
 
-public class conditional {
+public class ConditionalStatements {
 	public static void main(String xyz[]) {
 		int a=1;
 		switch(a) {
