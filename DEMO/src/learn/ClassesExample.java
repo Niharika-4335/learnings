@@ -20,9 +20,9 @@ class Employee{
 	}
 }
 //there is a class containing fields names of people and i have to sort them by names.
-public class classes {
+public class ClassExample{
 public static void main(String xyz[]) {
-	Employee e=new Employee(1,"honey");
+	Employee e=new Employee(1,"niharika");
 	System.out.print(e.getId());
 	System.out.print(e.getName());
 	e.setId(4);
